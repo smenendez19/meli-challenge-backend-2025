@@ -25,6 +25,7 @@ func setupRouter() *gin.Engine {
 	r.GET("/items/:id", itemController.GetItem)
 	r.GET("/items", itemController.GetAllItems)
 	r.POST("/items", itemController.AddItem)
+	r.POST("/items/compare", itemController.CompareItems)
 
 	return r
 }

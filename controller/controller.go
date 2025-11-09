@@ -1,6 +1,7 @@
 package controller
 
 import (
+	"meli-challenge-backend/dto"
 	"meli-challenge-backend/models"
 	"meli-challenge-backend/service"
 	"net/http"
@@ -52,7 +53,8 @@ func (ctrl *ItemController) AddItem(c *gin.Context) {
 
 	if err := c.ShouldBindJSON(&item); err != nil {
 		c.JSON(http.StatusBadRequest, gin.H{
-			"error": "Invalid request body",
+			"error":   "Validation failed",
+			"details": err.Error(),
 		})
 		return
 	}
@@ -68,4 +70,26 @@ func (ctrl *ItemController) AddItem(c *gin.Context) {
 		"message": "Item added successfully",
 		"item":    item,
 	})
+}
+
+func (ctrl *ItemController) CompareItems(c *gin.Context) {
+	var request dto.CompareItemsRequest
+
+	if err := c.ShouldBindJSON(&request); err != nil {
+		c.JSON(http.StatusBadRequest, gin.H{
+			"error":   "Validation failed",
+			"details": err.Error(),
+		})
+		return
+	}
+
+	comparison, err := ctrl.service.CompareItems(request.ProductIDs)
+	if err != nil {
+		c.JSON(http.StatusBadRequest, gin.H{
+			"error": err.Error(),
+		})
+		return
+	}
+
+	c.JSON(http.StatusOK, comparison)
 }

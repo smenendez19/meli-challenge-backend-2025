@@ -1,9 +1,9 @@
 [
   {
-    "product_id": "MLA123456",
+    "product_id": "1",
     "product_name": "Notebook Lenovo IdeaPad 3 15.6\" Intel Core i5 8GB RAM 256GB SSD",
-    "image_url": "https://http2.mlstatic.com/D_NQ_NP_notebook-lenovo.jpg",
-    "description": "Notebook ideal para trabajo y estudio. Procesador Intel Core i5 de 11va generación, pantalla Full HD de 15.6 pulgadas, 8GB de RAM DDR4 y disco sólido de 256GB para un rendimiento óptimo. Incluye Windows 11 Home y teclado en español.",
+    "image_url": "https://example.com/images/lenovo-ideapad-3.jpg",
+    "description": "Notebook Lenovo IdeaPad 3",
     "price": 549999.99,
     "rating": 4.5,
     "specifications": {
@@ -21,10 +21,31 @@
     }
   },
   {
-    "product_id": "MLA789012",
+    "product_id": "2",
+    "product_name": "Notebook Macbook Air 13.6\" M2 8GB RAM 256GB SSD",
+    "image_url": "https://example.com/images/macbook-air-m2.jpg",
+    "description": "Notebook Macbook Air 13.6\" M2 8GB RAM 256GB SSD",
+    "price": 1399999.00,
+    "rating": 4.8,
+    "specifications": {
+      "brand": "Apple",
+      "model": "Macbook Air M2",
+      "processor": "Apple M2",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "screen_size": "13.6 pulgadas",
+      "resolution": "1920x1080 Full HD",
+      "operating_system": "macOS Monterey",
+      "weight": "1.3 kg",
+      "battery": "Hasta 18 horas",
+      "color": "Silver"
+    }
+  },
+  {
+    "product_id": "3",
     "product_name": "Samsung Galaxy S23 128GB 8GB RAM Phantom Black",
-    "image_url": "https://http2.mlstatic.com/D_NQ_NP_samsung-s23.jpg",
-    "description": "Smartphone premium con cámara profesional de 50MP, pantalla Dynamic AMOLED 2X de 6.1 pulgadas con tasa de refresco de 120Hz. Procesador Snapdragon 8 Gen 2 para máximo rendimiento. Batería de 3900mAh con carga rápida. Resistente al agua IP68.",
+    "image_url": "https://example.com/images/samsung-galaxy-s23.jpg",
+    "description": "Smartphone Samsung Galaxy S23",
     "price": 899999.00,
     "rating": 4.8,
     "specifications": {
@@ -45,10 +66,10 @@
     }
   },
   {
-    "product_id": "MLA345678",
-    "product_name": "Sony WH-1000XM5 Auriculares Bluetooth con Cancelación de Ruido",
-    "image_url": "https://http2.mlstatic.com/D_NQ_NP_sony-wh1000xm5.jpg",
-    "description": "Auriculares inalámbricos premium con la mejor cancelación de ruido del mercado. Sonido Hi-Res Audio, hasta 30 horas de batería, carga rápida (3 min = 3 horas), micrófono con IA para llamadas cristalinas. Diseño elegante y cómodo para uso prolongado.",
+    "product_id": "4",
+    "product_name": "Sony WH-1000XM5",
+    "image_url": "https://example.com/images/sony-wh-1000xm5.jpg",
+    "description": "Auriculares inalambricos sony",
     "price": 349999.00,
     "rating": 4.9,
     "specifications": {
