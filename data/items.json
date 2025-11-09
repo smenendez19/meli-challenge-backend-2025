@@ -1,0 +1,70 @@
+[
+  {
+    "product_id": "MLA123456",
+    "product_name": "Notebook Lenovo IdeaPad 3 15.6\" Intel Core i5 8GB RAM 256GB SSD",
+    "image_url": "https://http2.mlstatic.com/D_NQ_NP_notebook-lenovo.jpg",
+    "description": "Notebook ideal para trabajo y estudio. Procesador Intel Core i5 de 11va generación, pantalla Full HD de 15.6 pulgadas, 8GB de RAM DDR4 y disco sólido de 256GB para un rendimiento óptimo. Incluye Windows 11 Home y teclado en español.",
+    "price": 549999.99,
+    "rating": 4.5,
+    "specifications": {
+      "brand": "Lenovo",
+      "model": "IdeaPad 3",
+      "processor": "Intel Core i5-1135G7",
+      "ram": "8GB DDR4",
+      "storage": "256GB SSD",
+      "screen_size": "15.6 pulgadas",
+      "resolution": "1920x1080 Full HD",
+      "operating_system": "Windows 11 Home",
+      "weight": "1.65 kg",
+      "battery": "Hasta 7 horas",
+      "color": "Gris"
+    }
+  },
+  {
+    "product_id": "MLA789012",
+    "product_name": "Samsung Galaxy S23 128GB 8GB RAM Phantom Black",
+    "image_url": "https://http2.mlstatic.com/D_NQ_NP_samsung-s23.jpg",
+    "description": "Smartphone premium con cámara profesional de 50MP, pantalla Dynamic AMOLED 2X de 6.1 pulgadas con tasa de refresco de 120Hz. Procesador Snapdragon 8 Gen 2 para máximo rendimiento. Batería de 3900mAh con carga rápida. Resistente al agua IP68.",
+    "price": 899999.00,
+    "rating": 4.8,
+    "specifications": {
+      "brand": "Samsung",
+      "model": "Galaxy S23",
+      "processor": "Snapdragon 8 Gen 2",
+      "ram": "8GB",
+      "storage": "128GB",
+      "screen_size": "6.1 pulgadas",
+      "resolution": "2340x1080 FHD+",
+      "main_camera": "50MP + 12MP + 10MP",
+      "front_camera": "12MP",
+      "battery": "3900mAh",
+      "operating_system": "Android 13",
+      "5g": true,
+      "water_resistance": "IP68",
+      "color": "Phantom Black"
+    }
+  },
+  {
+    "product_id": "MLA345678",
+    "product_name": "Sony WH-1000XM5 Auriculares Bluetooth con Cancelación de Ruido",
+    "image_url": "https://http2.mlstatic.com/D_NQ_NP_sony-wh1000xm5.jpg",
+    "description": "Auriculares inalámbricos premium con la mejor cancelación de ruido del mercado. Sonido Hi-Res Audio, hasta 30 horas de batería, carga rápida (3 min = 3 horas), micrófono con IA para llamadas cristalinas. Diseño elegante y cómodo para uso prolongado.",
+    "price": 349999.00,
+    "rating": 4.9,
+    "specifications": {
+      "brand": "Sony",
+      "model": "WH-1000XM5",
+      "type": "Over-ear",
+      "connection": "Bluetooth 5.2",
+      "noise_cancellation": "Active (ANC)",
+      "battery_life": "30 horas",
+      "quick_charge": "3 min = 3 horas",
+      "weight": "250g",
+      "audio_codec": "LDAC, AAC, SBC",
+      "microphone": "Dual noise sensor",
+      "color": "Black",
+      "foldable": true,
+      "voice_assistant": "Alexa, Google Assistant"
+    }
+  }
+]

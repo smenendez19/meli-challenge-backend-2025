@@ -1,4 +1,4 @@
-module project
+module meli-challenge-backend
 
 go 1.23.3
 
